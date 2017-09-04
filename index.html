@@ -179,19 +179,19 @@ var wizardSpeed = 3;
 var wizardWidth = 70;
 var constForHeight = 1.337;
 
-var getFireballSpeed = function(left){
+var getFireballSpeed = function (left) {
 	left == true ? 5 : 2 ;
 }
 <!-- не сообразила, где тут лишняя строка>  
-var getWizardHeight = function(wizardWidth){
+var getWizardHeight = function (wizardWidth) {
 	return constForHeight * wizardWidth;
 }
   
-var getWizardX = function(width){ 
+var getWizardX = function (width) { 
 	return (width+wizardWidth) / 2; 
 }
   
-var getWizardY = function(height){ 
+var getWizardY = function (height) { 
 	return 2 * height / 3 + getWizardHeight() / 2;
 }
 </script>
